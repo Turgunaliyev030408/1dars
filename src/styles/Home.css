@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1595px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top-element {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-link-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.link-item {
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    color: #274C5B;
+}
+
+.top-links {
+    text-decoration: none;
+}
+
+.top-pages-drops {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #274C5B;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+
+}
+
+.drop-items {
+    background-color: rgb(234, 237, 241);
+    border-radius: 12px;
+}
+
+.top-right-element {
+    display: flex;
+}
+
+.top-input {
+    width: 376px;
+    height: 66px;
+    background-color: #EFF6F1;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-input {
+    border-radius: 36px;
+    width: 300px;
+    height: 66px;
+    background-color: #EFF6F1;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.right-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #7EB693;
+    border: none;
+    cursor: pointer;
+}
+
+.right-market {
+    width: 160px;
+    height: 66px;
+    border-radius: 36px;
+    border: solid 0.5px #274C5B;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    gap: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.market-btn {
+    border: none;
+    width: 56px;
+    height: 56px;
+    background-color: #274C5B;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.max-container {
+    max-width: 1920px;
+    height: 898px;
+    margin: 0 auto;
+    background-image: url(../../public/png/Image.png);
+}
+
+.mini-container {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-middle-element {
+    display: flex;
+    flex-direction: column;
+    padding-top: 247px;
+    gap: 23px;
+}
+
+.middle-logo {
+    width: 237px;
+    height: 50px;
+}
+
+.middle-title {
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 800px;
+    color: #274C5B;
+}
+
+.middle-btn {
+    width: 220px;
+    height: 80px;
+    background-color: #EFD372;
+    border-radius: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: sans-serif;
+    color: #274C5B;
+    cursor: pointer;
+}
+
+.card-wrapper {
+    padding-top: 154px;
+    padding-bottom: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-card {
+    width: 682px;
+    height: 367px;
+    cursor: pointer;
+}
+
+.max-containers {
+    max-width: 1920px;
+    height: 898px;
+    margin: 0 auto;
+    background-image: url(../../public/png/middle-backround-image.png);
+}
+
+.main-middle-element {
+    max-width: 1070px;
+    height: 100%;
+    margin-left: 700px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.main-middle-element {
+    font-size: 30px;
+    font-weight: 800px;
+    color: #274C5B;
+    font-family: sans-serif;
+}
+
+.abaut-logo {
+    width: 117px;
+    height: 50px;
+}
+
+.middle-top-text {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #274C5B;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card-logos {
+    width: 101px;
+    height: 101px;
+}
+
+.cards-title {
+    font-size: 25px;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.cards-text {
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: #274C5B;
+}
+
+.main-middle-btn {
+    width: 220px;
+    height: 80px;
+    border-radius: 16px;
+    border: none;
+    background-color: #274C5B;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
